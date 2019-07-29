@@ -9,34 +9,36 @@ compile_commands.json
 CTestTestfile.cmake
 
 # Prerequisites
-*.d
+tutorial/*/*.d
 
 # Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+tutorial/*/*/*.slo`
+tutorial/*/*.lo
+tutorial/*/*.o
+tutorial/*/*.obj
 
 # Precompiled Headers
-*.gch
-*.pch
+tutorial/*/*.gch
+tutorial/*/*.pch
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+tutorial/*/*/*.so
+tutorial/*/*/*.dylib
+tutorial/*/*/*.dll
 
 # Fortran module files
-*.mod
-*.smod
+tutorial/*/*.mod
+tutorial/*/*.smod
 
 # Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+tutorial/*/*/*.lai
+tutorial/*/*/*/la
+tutorial/*/*/*.a
+tutorial/*/*.lib
 
 # Executables
-*.exe
-*.out
-*.app
+tutorial/*/*.exe
+tutorial/*/*.out
+tutorial/*/*.app
+
+tutorial/*/Tutorial
